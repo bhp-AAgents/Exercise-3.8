@@ -12,7 +12,7 @@ namespace Exercise_3._8
 
         public GoogleCustomSearchEngine(string searchString)
         {
-            const string apiKey = "AIzaSyC3PlCIrvhCYZhidmEUi7z4oVOrOIrw8EI";
+            const string apiKey = "Some Google API-Key";
             const string searchEngineId = "015351139142946479508:3lihax8uevs";
             var customSearchService = new CustomsearchService(new BaseClientService.Initializer { ApiKey = apiKey });
             var listRequest = customSearchService.Cse.List();
